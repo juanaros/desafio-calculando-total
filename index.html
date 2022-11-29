@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div><img src="assets/img/date.png" alt="datejust president"></div>
+            <h3>Rolex Datejust</h3>
+            <input type="text" placeholder="Cantidad" id="cantidad">
+            <input type="text" placeholder="Color" id="color">
+            <div>Precio: US $<span id="price">30000</span></div>
+            <button id="btn" onclick="calcular()">Calcular Total</button>
+        </div> 
+        <div>
+            <div>Total: US $ <span id="res_total">0</span></div>
+            <div>Cantidad: <span id="res_cant">0</span></div>
+            <div>Color: <div id="res_color" class="res_color"></div></div>
+        </div>
+    </div>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
